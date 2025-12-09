@@ -11,7 +11,7 @@ Ansible - For config management such as, installing packages, hardening servers,
 
 ## Monitoring/Observability
 
-Prometheus - primarily will be used as a metrics engine, such as CPU, Ram, disk, networking, vm metrics, and so on
+Prometheus - primarily will be used as a metrics engine, such as CPU, Ram, disk, networking, vm metrics, etc.
 Grafana - Will be used as a virtualization and alert layer
 Loki - will be used as a centralized logging service
 
