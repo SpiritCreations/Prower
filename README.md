@@ -10,7 +10,7 @@
 
 Prower is a personal homelab server running Proxmox, built and maintained since November 2025. It hosts a mix of VMs and containers that I build, break, harden, and document - the same way you would in a professional environment.
 
-This isn't a sandbox that's just spun up and forgotten. Everything on Prower gets real use, real monitoring, and real incident response. If something breaks, theres a log for it. If it isn't used, its deprecated to save resources.
+This isn't a sandbox that's just spun up and forgotten. Everything on Prower gets real use, real monitoring, and real incident response. If something breaks, there's a log for it. If it isn't used, it's deprecated to save resources.
 
 ---
 
@@ -18,7 +18,7 @@ This isn't a sandbox that's just spun up and forgotten. Everything on Prower get
 
 I've spent ~6 years in IT and the thing I've consistently wanted more of is the ability to actually *build* - to automate the repetitive, to provision infrastructure with a single command, and to make systems that just work without someone having to babysit them.
 
-DevOps is where that happens. Its where I want to be, and Prower is how I get there, all whilst doing it on myself, documenting it properly, and treating a homelab like production infrastructure.
+DevOps is where that happens. It's where I want to be, and Prower is how I get there, by doing it on myself, documenting it properly, and treating a homelab like production infrastructure.
 
 ---
 
@@ -40,15 +40,15 @@ DevOps is where that happens. Its where I want to be, and Prower is how I get th
 - **Monitoring:** Prometheus, Grafana, Node Exporter, Alertmanager
 - **Security:** UFW, Fail2ban, SSH key-only authentication, unattended upgrades
 - **IaC (in progress):** Terraform, Ansible
-- **CI/CD (in progress):** Github Actions
+- **CI/CD (in progress):** GitHub Actions
 
 ---
 
 ## What I'm Practicing
 
 - Infrastructure as Code - automated VM and container provisioning with Terraform and Ansible
-- Observability - metrics, dashboards, and email aerting with Prometheus and Grafana
-- Security hardening - Firewall rules, Intrusion prevention, an SSH hardening on every node
+- Observability - metrics, dashboards, and email alerting with Prometheus and Grafana
+- Security hardening - Firewall rules, Intrusion prevention, and SSH hardening on every node
 - Incident response - real postmortems and incident reports written to professional standards
 - Documentation - every change, problem, and resolution is logged the way it should be in a real ops environment
 
@@ -58,7 +58,7 @@ DevOps is where that happens. Its where I want to be, and Prower is how I get th
 
 All changes, build logs, incident reports, and postmortems live in the companion repo:
 
-### [Prower-Progress-Logs] (https://github.com/SpiritCreations/Prower-Progress-Logs)
+### [Prower-Progress-Logs](https://github.com/SpiritCreations/Prower-Progress-Logs)
 
 If this README is the cover letter, that repo is the portfolio.
 
