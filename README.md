@@ -46,11 +46,11 @@ DevOps is where that happens. It's where I want to be, and Prower is how I get t
 
 ## What I'm Practicing
 
-- Infrastructure as Code - automated VM and container provisioning with Terraform and Ansible
-- Observability - metrics, dashboards, and email alerting with Prometheus and Grafana
+- Infrastructure as Code - Automated VM and container provisioning with Terraform and Ansible
+- Observability - Metrics, dashboards, and email alerting with Prometheus and Grafana
 - Security hardening - Firewall rules, Intrusion prevention, and SSH hardening on every node
-- Incident response - real postmortems and incident reports written to professional standards
-- Documentation - every change, problem, and resolution is logged the way it should be in a real ops environment
+- Incident response - Real postmortems and incident reports written to professional standards
+- Documentation - Every change, problem, and resolution is logged the way it should be in a real ops environment
 
 ---
 
