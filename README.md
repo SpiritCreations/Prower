@@ -1,24 +1,67 @@
 # Prower
-### A homelab designed to practice enterprise deployment pipelines. 
-(Lovingly named after Tails "Miles" Prower from Sonic the Hedgehog &lt;3)
 
-##  -Stuff To Learn-
+> A self-built homelab server used to practice and document real-world DevOps workflows.
+>
+> *Lovingly named after Tails "Miles" Prower from Sonic the Hedgehog.*
 
-## IaC
+---
 
-Terraform - for the auto deployment of VMs, Networks, Storage, and Templates
-Ansible - For config management such as, installing packages, hardening servers, deploying services, user/group management
+## What is Prower?
 
-## Monitoring/Observability
+Prower is a personal homelab server running Proxmox, built and maintained since November 2025. It hosts a mix of VMs and containers that I build, break, harden, and document - the same way you would in a professional environment.
 
-Prometheus - primarily will be used as a metrics engine, such as CPU, Ram, disk, networking, vm metrics, etc.
-Grafana - Will be used as a virtualization and alert layer
-Loki - will be used as a centralized logging service
+This isn't a sandbox that's just spun up and forgotten. Everything on Prower gets real use, real monitoring, and real incident response. If something breaks, theres a log for it. If it isn't used, its deprecated to save resources.
 
-## Container Orchestration
+---
 
-Kubernetes - Enterprise standard, used incredibly commonly, considering the scope and goals of this project its the best option.
+## Why Does This Exist
 
-## Automation Pipelines
+I've spent ~6 years in IT and the thing I've consistently wanted more of is the ability to actually *build* - to automate the repetitive, to provision infrastructure with a single command, and to make systems that just work without someone having to babysit them.
 
-GitHub Actions - industry standard, works well with Terraform, Ansible, Github Actions, Etc.
+DevOps is where that happens. Its where I want to be, and Prower is how I get there, all whilst doing it on myself, documenting it properly, and treating a homelab like production infrastructure.
+
+---
+
+## What's Running
+
+| Name | Type | Role | Status |
+|---|---|---|---|
+| Infrastructure-VM-01 | VM | Primary automation and control node | Running |
+| Monitoring-VM-01 | VM | Prometheus, Grafana, Node Exporter, Alertmanager | Running|
+| CEJ-CT | Container | Self-hosted Minecraft server | Running |
+| MCTestBranch | Container | Sandboxed test environment for CEJ | Planned |
+
+---
+
+## Current Stack
+- **Hypervisor:** Proxmox VE
+- **OS:** Ubuntu Server 24.04 LTS (VMs), Debian 12 (Containers)
+- **Containers:** Docker + Docker Compose
+- **Monitoring:** Prometheus, Grafana, Node Exporter, Alertmanager
+- **Security:** UFW, Fail2ban, SSH key-only authentication, unattended upgrades
+- **IaC (in progress):** Terraform, Ansible
+- **CI/CD (in progress):** Github Actions
+
+---
+
+## What I'm Practicing
+
+- Infrastructure as Code - automated VM and container provisioning with Terraform and Ansible
+- Observability - metrics, dashboards, and email aerting with Prometheus and Grafana
+- Security hardening - Firewall rules, Intrusion prevention, an SSH hardening on every node
+- Incident response - real postmortems and incident reports written to professional standards
+- Documentation - every change, problem, and resolution is logged the way it should be in a real ops environment
+
+---
+
+## The Full Picture
+
+All changes, build logs, incident reports, and postmortems live in the companion repo:
+
+### [Prower-Progress-Logs] (https://github.com/SpiritCreations/Prower-Progress-Logs)
+
+If this README is the cover letter, that repo is the portfolio.
+
+---
+
+*Built and maintained by [SpiritCreations](https://github.com/SpiritCreations)*
