@@ -8,7 +8,7 @@
 
 ## What is Prower?
 
-Prower is a personal homelab server running Proxmox, built and maintained since November 2025. It hosts a mix of VMs and containers that I build, break, harden, and document - the same way you would in a professional environment.
+Prower is a personal homelab server running Proxmox, built and maintained since November 2025. It hosts a mix of VMs and containers that I build, break, harden, and document, the same way you would in a professional environment.
 
 This isn't a sandbox that's just spun up and forgotten. Everything on Prower gets real use, real monitoring, and real incident response. If something breaks, there's a log for it. If it isn't used, it's deprecated to save resources.
 
