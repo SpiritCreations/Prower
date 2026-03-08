@@ -16,9 +16,9 @@ This isn't a sandbox that's just spun up and forgotten. Everything on Prower get
 
 ## Why Does This Exist
 
-I've spent ~6 years in IT and the thing I've consistently wanted more of is the ability to actually *build* - to automate the repetitive, to provision infrastructure with a single command, and to make systems that just work without someone having to babysit them.
+I've spent ~6 years in IT and the thing I've consistently wanted more of is the ability to actually *build*, to automate the repetitive, to provision infrastructure with a single command, and to make systems that just work without someone having to babysit them.
 
-DevOps is where that happens. It's where I want to be, and Prower is how I get there, by doing it on myself, documenting it properly, and treating a homelab like production infrastructure.
+DevOps is where that happens. It's where I want to be, and Prower is how I get there, by doing it myself, documenting it properly, and treating a homelab like production infrastructure.
 
 ---
 
